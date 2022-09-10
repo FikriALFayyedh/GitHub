@@ -370,14 +370,14 @@ Kode sumber.
 ![](Gambar/14.png)
 
 Garis
-HelloPrinter kelas publik
+public class HelloPrinter
 menunjukkan deklarasi kelas yang disebut HelloPrinter.
 Setiap program Java terdiri dari satu atau lebih kelas. Kami akan membahas kelas lebih lanjut
 rinci dalam Bab 2 dan 3.
 Kata publik menunjukkan bahwa kelas dapat digunakan oleh "publik". Anda akan nanti
 menemukan fitur pribadi.
-Di Java, setiap file sumber dapat berisi paling banyak satu kelas publik, dan nama dari
-kelas publik harus cocok dengan nama file yang berisi kelas tersebut. Misalnya,
+Di Java, setiap file sumber dapat berisi paling banyak satu public class, dan nama dari
+public class harus cocok dengan nama file yang berisi kelas tersebut. Misalnya,
 kelas HelloPrinter harus terdapat dalam sebuah file bernama HelloPrinter.java.
 Konstruksi
 public static void main(String[] args)
@@ -518,7 +518,7 @@ out.println("Dunia!");
 Kemudian tidak mengerti pernyataan itu, karena tidak mengharapkan kata Sistem mengikuti kurung penutup setelah "Halo".
 Obatnya sederhana. Pindai setiap pernyataan untuk tanda titik koma, seperti yang Anda lakukan
 periksa apakah setiap kalimat bahasa Inggris diakhiri dengan tanda titik. Namun, jangan tambahkan titik koma di
-akhir kelas publik Halo atau public static void main. Garis-garis ini bukan pernyataan.
+akhir public class Halo atau public static void main. Garis-garis ini bukan pernyataan.
 
 ## 1.6 Kesalahan
 
